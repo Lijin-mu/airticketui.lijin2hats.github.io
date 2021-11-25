@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Air ticket reservation system</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="vendor/css/all.min.css" />
         <link rel="stylesheet" href="css/app.css" />
     </head>
@@ -14,13 +17,16 @@
             <div class="booking-contents">
                 <!-- breaf item start -->
                 <div class="booking-breaf-container">
-                    <div class="company-logo">
-                        <img src="images/american_airlines_logo.png">
+                    <div class="logo-title">
+                        <div class="company-logo">
+                            <img src="images/american_airlines_logo.png">
+                        </div>
+                        <div class="titles">
+                            <h2 class="airline-title">American Airlines extended</h2>
+                            <p class="airline-subtitle">CX5111 Airbus | Airbus  Airbus 333</p>
+                        </div>
                     </div>
-                    <div class="titles">
-                        <h2 class="airline-title">American Airlines extended</h2>
-                        <p class="airline-subtitle">CX5111 Airbus | Airbus  Airbus 333</p>
-                    </div>
+                   
                     <div class="departure-date">
                         11 Mar 2021
                     </div>
@@ -42,12 +48,14 @@
                 <!-- breaf item end -->
                 <!-- breaf item start -->
                 <div class="booking-breaf-container">
-                    <div class="company-logo">
-                        <img src="images/turkish_airlines_logo.png">
-                    </div>
-                    <div class="titles">
-                        <h2 class="airline-title">American Airlines</h2>
-                        <p class="airline-subtitle">CX5111 | Airbus 333</p>
+                    <div class="logo-title">
+                        <div class="company-logo">
+                            <img src="images/american_airlines_logo.png">
+                        </div>
+                        <div class="titles">
+                            <h2 class="airline-title">American Airlines extended</h2>
+                            <p class="airline-subtitle">CX5111 Airbus | Airbus  Airbus 333</p>
+                        </div>
                     </div>
                     <div class="return-date">
                         11 Mar 2021
@@ -98,7 +106,7 @@
                         </div>
                     </div>
                     <div class="departure-details data-departure">
-
+                        <div class="journey-detail-wrapper">
                         <!-- journey detial item start -->
                         <div class="journey-detail-content">
                             <div class="jd-head">
@@ -155,68 +163,10 @@
                             </div>
                         </div>
                         <!-- journey detial item end -->
-                        <div class="jd-btwn-spacer"></div>
-                        <!-- journey detial item start -->
-                        <div class="journey-detail-content">
-                            <div class="jd-head">
-                                <div class="class-badge">Economy</div>
-                                <div class="company-logo">
-                                    <img src="images/american_airlines_logo.png">
-                                </div>
-                                <div class="jd-time-area">
-                                    <div class="jdt-row">
-                                        <div class="jdt-time">01:15 <span>12 Mar 2020</span></div>
-                                        <div class="jdt-divider"><i class="fas fa-arrow-right"></i></div>
-                                        <div class="jdt-time">01:15 <span>12 Mar 2020</span></div>
-                                    </div>
-                                    <div class="time-span">3 hr 45 min</div>
-                                </div>
-                            </div>
-                            <div class="jd-paths">
-                                <div class="airline-stamp">Americal Alrlines BH763</div>
-                                <div class="alrport-stamp">Ziya international airport T L Dhaka(Bangladesh)</div>
-                            </div>
                         </div>
-                        <!-- journey detial item end -->
-
-                         <!-- journey detial item start -->
-                         <div class="journey-detail-content">
-                            <div class="jd-head">
-                                <div class="class-badge">Economy</div>
-                                <div class="company-logo">
-                                    <img src="images/american_airlines_logo.png">
-                                </div>
-                                <div class="jd-time-area">
-                                    <div class="jdt-row">
-                                        <div class="jdt-time">01:15 <span>12 Mar 2020</span></div>
-                                        <div class="jdt-divider"><i class="fas fa-arrow-right"></i></div>
-                                        <div class="jdt-time">01:15 <span>12 Mar 2020</span></div>
-                                    </div>
-                                    <div class="time-span">3 hr 45 min</div>
-                                </div>
-                            </div>
-                            <div class="jd-paths">
-                                <div class="airline-stamp">Americal Alrlines BH763</div>
-                                <div class="alrport-stamp">Ziya international airport T L Dhaka(Bangladesh)</div>
-                                <div class="stop-stamp">
-                                    <div class="ss-item">Stop at DAC</div>
-                                    <div class="ss-item">12 hr 45 min layover in singapur</div>
-                                </div>
-                                <div class="stop-stamp">
-                                    <div class="ss-item">Stop at DAC</div>
-                                    <div class="ss-item">12 hr 45 min layover in singapur</div>
-                                </div>
-                                <div class="destination-stamp">
-                                    <div class="ds-item">Destination</div>
-                                    <div class="ds-item">John F Kennady International Airport </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- journey detial item end -->
-                        
-
                     </div>
                     <div class="departure-details data-return">
+                        <div class="journey-detail-wrapper">
                         <!-- journey detial item start -->
                         <div class="journey-detail-content">
                             <div class="jd-head">
@@ -274,19 +224,23 @@
                         </div>
                         <!-- journey detial item end -->
                     </div>
+                    </div>
                 </div>
             </div>
             <div class="booking-sidebar">
                 <div class="bid-ad-section">
                     <div class="bid-badge">Lowest Price</div>
                     <div class="bid-title">BDT 1,51,173</div>
-                    <div class="bid-offer">refundable<i class="fas fa-exclamation-circle"></i></div>
+                    <div class="bid-offer">
+                        Refundable<i class="fas fa-exclamation-circle"></i>
+                        <div class="tooltips">Terms and conditions apply</div>
+                    </div>
                     <div class="bid-seats">3 Seats <span>available</span></div>
                     <div class="bid-buttons-section">
                         <div class="option">
                             <div class="custom-select">
                                 <select>
-                                  <option value="0">flight details</option>
+                                  <option value="0">Flight details</option>
                                   <option value="1">details 1</option>
                                   <option value="2">details 2</option>
                                   <option value="3">details 3</option>
@@ -294,7 +248,7 @@
                                 </select>
                               </div>
                         </div>
-                        <a href="#" class="btn">select <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="btn">Select <i class="fas fa-arrow-right"></i></a>
                     </div>
                     
                      
@@ -308,7 +262,7 @@
                             <div class="fare-title">
                                 <div class="tabel-flex-wrap">
                                     <div class="item">
-                                        <div class="title-item">Free summary</div>
+                                        <div class="title-item">Fare Summary</div>
                                     </div>
                                     <div class="item">
                                         <div class="title-item">Base Fare</div>
@@ -400,14 +354,12 @@
                                 </div>
                             </div>
                             <div class="total-tax">
-                                <div class="tabel-flex-wrap">
                                     <div class="item">
-                                        <div class="totals">Tax</div>
+                                        <div class="totals">Total</div>
                                     </div>
                                     <div class="item">
                                         <div class="amount-total">BDT 58,098</div>
                                     </div>
-                                </div>
                             </div>
                             <div class="passenger-wrap">2 travellers</div>
                         </div>
@@ -460,13 +412,11 @@
                                 </div>
                             </div>
                             <div class="total-tax">
-                                <div class="tabel-flex-wrap">
-                                    <div class="item">
-                                        <div class="totals">Tax</div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="amount-total">BDT 58,098</div>
-                                    </div>
+                                <div class="item">
+                                    <div class="totals">Total</div>
+                                </div>
+                                <div class="item">
+                                    <div class="amount-total">BDT 58,098</div>
                                 </div>
                             </div>
                             <div class="passenger-wrap">3 packages</div>
